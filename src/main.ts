@@ -166,7 +166,7 @@ app.innerHTML = `
       <div class="invitation-lines" aria-hidden="true"></div>
       <div class="invitation-inner" data-reveal>
         <p class="invitation-kicker">Estan sencillas de adivinar</p>
-        <h2>Lara, te espero en la estacion que te quede mas comoda</h2>
+        <h2>Lara, te espero en la estación que te quede más cómoda</h2>
         <p class="invitation-detail">Domingo 4 de octubre · cuatro paradas</p>
         <div class="response-actions">
           <button class="accept-action" id="accept" type="button">Sí, vamos</button>
@@ -179,7 +179,7 @@ app.innerHTML = `
 
   <footer>
     <p>Sujeto al clima y las vibes.</p>
-    <span>Hilario e Ilaria xD· Brno</span>
+    <span>Ilaria e Hilario xD· Brno</span>
   </footer>
 `
 
