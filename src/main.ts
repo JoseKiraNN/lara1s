@@ -14,7 +14,7 @@ const stops: JourneyStop[] = [
   },
   {
     title: 'Una pausa con sabor',
-    clue: 'Una mesa será el mapa y algo rico, la brújula para poder continuar.',
+    clue: 'Una mesa será el mapa y algo rico, espero estar a la altura de Roma (Imposible).',
     image: '/assets/stops/lunch.svg',
   },
   {
@@ -24,7 +24,7 @@ const stops: JourneyStop[] = [
   },
   {
     title: 'El tesoro dorado',
-    clue: 'Media luna dorada, corazón argentino: este tesoro se come con las manos.',
+    clue: 'Media luna dorada, corazón latino: este tesoro se come con las manos.',
     image: '/assets/stops/empanadas.svg',
   },
 ]
@@ -71,7 +71,7 @@ app.innerHTML = `
     <section class="intro" id="inicio">
       <div class="intro-copy" data-reveal>
         <p class="postal-line">Para Ilaria · de Hilario</p>
-        <h1>¿Descubrimos <em>Brno</em> juntos?</h1>
+        <h1>¿Descubrimos <em>Brno</em>?</h1>
         <p class="intro-lede">
           Este domingo la ciudad guarda cuatro pistas. Yo pongo el mapa;
           tú solo trae curiosidad y ganas de caminar.
@@ -105,7 +105,7 @@ app.innerHTML = `
       <div class="section-heading" data-reveal>
         <div>
           <p class="section-kicker">Domingo · 4 de octubre</p>
-          <h2>Cuatro paradas.<br />Una tarde en Brno.</h2>
+          <h2>Cuatro paradas.<br />Un día en Brno.</h2>
         </div>
         <div class="route-status" aria-live="polite">
           <span>Ruta recorrida</span>
@@ -165,12 +165,12 @@ app.innerHTML = `
     <section class="invitation" id="invitacion">
       <div class="invitation-lines" aria-hidden="true"></div>
       <div class="invitation-inner" data-reveal>
-        <p class="invitation-kicker">La última pista es muy fácil</p>
-        <h2>Ilaria, ¿te apuntas a descubrir Brno conmigo?</h2>
-        <p class="invitation-detail">Domingo 4 de octubre · cuatro paradas · una buena historia</p>
+        <p class="invitation-kicker">Estan sencillas de adivinar</p>
+        <h2>Lara, te espero en la estacion que te quede mas comoda</h2>
+        <p class="invitation-detail">Domingo 4 de octubre · cuatro paradas</p>
         <div class="response-actions">
           <button class="accept-action" id="accept" type="button">Sí, vamos</button>
-          <button class="maybe-action" id="maybe" type="button">Déjame pensarlo</button>
+          <button class="maybe-action" id="accept" type="button">Sí, vamos (pero en transparente)</button>
         </div>
         <p class="response-message" id="response-message" aria-live="polite"></p>
       </div>
@@ -178,8 +178,8 @@ app.innerHTML = `
   </main>
 
   <footer>
-    <p>Hecho con cariño y un mapa no del todo preciso.</p>
-    <span>Hilario + Ilaria · Brno</span>
+    <p>Sujeto al clima y las vibes.</p>
+    <span>Hilario e Ilaria xD· Brno</span>
   </footer>
 `
 
