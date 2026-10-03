@@ -70,7 +70,7 @@ app.innerHTML = `
   <main>
     <section class="intro" id="inicio">
       <div class="intro-copy" data-reveal>
-        <p class="postal-line">Para Ilaria · de Hilario</p>
+        <p class="postal-line">Para Lara</p>
         <h1>¿Descubrimos <em>Brno</em>?</h1>
         <p class="intro-lede">
           Este domingo la ciudad guarda cuatro pistas. Yo pongo el mapa;
